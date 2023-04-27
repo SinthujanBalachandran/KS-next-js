@@ -15,31 +15,15 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <Image
-            src={car1}
-            // placeholder="blur"
-            height={300}
-            width={500}
-            alt="sample"
-            // priority
-          />
+          <Image src={car1} height={300} width={500} alt="sample" />
         </div>
         <div className="h-screen bg-green-300"></div>
         <div className="h-screen bg-green-500"></div>
         <div className="h-screen bg-green-300"></div>
         <div className="h-screen bg-green-500"></div>
         <div className="h-screen bg-green-300"></div>
-        <div>
-          <Image
-            src={car2}
-            // placeholder="blur"
-            height={300}
-            width={500}
-            alt="sample"
-            // priority
-          />
-        </div>
-        <Link href="/about">About</Link>
+        <div></div>
+        <Link href="/about-us">About</Link>
       </main>
     </>
   );

@@ -39,7 +39,7 @@ export default function Home() {
             // priority
           />
         </div>
-        <Link href="/about">About</Link>
+        <Link href="/about-us">About</Link>
       </main>
     </>
   );
