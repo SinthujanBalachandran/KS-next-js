@@ -1,5 +1,4 @@
 export default function About({ posts }) {
-  console.log(posts.data[0].title);
   return (
     <div>
       <div>
